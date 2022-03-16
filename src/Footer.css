@@ -1,0 +1,36 @@
+@media (min-width:320px){
+    .footermobile{
+        background-color: #7C20BF;
+        position: relative;
+        bottom: 50px;
+        height: 250px;
+    }
+    .footlink{
+        display: grid;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+    #plccl{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #plccl:hover{
+        color: #FF748E;
+    }
+    
+    #copyright{
+        padding-bottom: 20px;
+        width: 80%;
+    }
+
+
+}
+
+/* MOBILE QUERY FOR 375 STARTS */
+@media (min-width: 375px){
+
+
+
+
+
+}
