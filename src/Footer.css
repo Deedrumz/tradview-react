@@ -26,9 +26,12 @@
 
 }
 
-/* MOBILE QUERY FOR 375 STARTS */
-@media (min-width: 375px){
-
+/* MOBILE QUERY FOR 1025 STARTS */
+@media (min-width: 1025px){
+#copyright{
+    width: 30%;
+    padding-left: 50px;
+}
 
 
 

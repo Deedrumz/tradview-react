@@ -46,3 +46,19 @@ opacity: 1;
 
 }
 
+/* MOBILE QUERY FOR 1285 STARTS */
+@media (min-width: 1285px){
+    .movegt{
+        margin-left: 500px;
+    }
+    #movelogin1{
+        position: relative;
+        left: 480px;
+     }
+     #navlink{
+        position: relative;
+        left: 450px;
+    }
+
+
+}

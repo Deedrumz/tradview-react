@@ -21,6 +21,15 @@ const Footer = () => {
                         </div>
           </section>
           <img id='copyright' src= {copyright} alt="" />
+          
+      {/* footer for desktop */}
+          
+          <section>
+            
+        
+
+
+          </section>
 
         
 
