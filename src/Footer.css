@@ -22,6 +22,19 @@
         padding-bottom: 20px;
         width: 80%;
     }
+.allcopyright{
+    background-color: #F2F2F2;
+}
+
+}
+
+/* MOBILE QUERY FOR 600 STARTS */
+@media (min-width: 600px){
+#copyright{
+    width: 50%;
+}
+
+
 
 
 }
@@ -29,11 +42,44 @@
 /* MOBILE QUERY FOR 1025 STARTS */
 @media (min-width: 1025px){
 #copyright{
-    width: 30%;
+    width: 40%;
     padding-left: 50px;
 }
-
-
+.footerdesk p{
+    font-weight: 300;
+}
+.productsf{
+    text-align: left;
+    padding-left: 20px;
+}
+.learnf{
+    text-align: left;
+}
+.contactf{
+    text-align: left;
+}
+.companyf{
+    text-align: left;
+}
+.legalf{
+    text-align: left;
+    padding-right: 20px;
+}
+.ttwf{
+    margin-right: 30px;
+}
 
 
 }
+
+/* MOBILE QUERY FOR 1285 STARTS */
+@media (min-width: 1285px){
+    #copyright{
+        width: 30%;
+        padding-left: 50px;
+    }
+    
+    
+    
+    
+    }

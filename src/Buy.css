@@ -6,6 +6,9 @@
         width: 90%;
         border-radius: 2%;
         padding-top: 30px;
+        box-shadow: 0px 2px 3px #000000;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
     }
 
 .moveallbuy{
@@ -13,8 +16,8 @@
     position: relative;
     bottom: 30px;
 }
-.footermobile{
-    display: none;
+.movefootermobile{
+    padding-top: 50px;
 }
 .buyselllink{
     position: relative;
@@ -39,17 +42,21 @@
     width: 80%;
     border-radius: 8px;
     height: 35px;
+    border: 0.3px solid #E4E4E4;
 }
 #ncyr{
     width: 80%;
     border-radius: 8px;
     height: 35px;
+    border: 0.3px solid #E4E4E4;
 }
 #numberb{
     width: 80%;
     border-radius: 8px;
     height: 35px;
     border-style: none;
+    border: 0.3px solid #E4E4E4;
+    outline: none;
 }
 .allbuy label{
     font-weight: bold;

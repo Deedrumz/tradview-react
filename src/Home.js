@@ -33,10 +33,10 @@ const Home = () => {
           </p>
 
           <div className="movegt2">
-            <Button id="gt2" variant="" size="md">
+         <Link to="Welcome"><Button id="gt2" variant="" size="md">
               {" "}
               Get Started{" "}
-            </Button>
+            </Button></Link>   
           </div>
 
           <div className="appgoo">
@@ -249,10 +249,10 @@ const Home = () => {
                   <p id="ready4">Ready to trade Buy/Sell cryptocurrencies in just 10 minutes?</p>
                   <h4 id="create4">Create your account for free and start trading today!</h4>
                   <Nav className="movegt4">
-                    <Button id="gt4" variant="" size="md">
+              <Link to='Welcome'><Button id="gt4" variant="" size="md">
                       {" "}
                       Get Started{" "}
-                    </Button>
+                    </Button></Link>      
                   </Nav>
 
                   <div className="moveag4">

@@ -273,7 +273,9 @@
         position: relative;
         bottom: 120px;
     }
-    
+    .footerdesk{
+        display: none;
+    }
     }
     
     /* MOBILE QUERY FOR 375 STARTS */
@@ -596,6 +598,13 @@
     
     /* MOBILE QUERY FOR 1025 STARTS */
     @media (min-width: 1025px){
+    .footermobile{
+        display: none;
+    }
+    .footerdesk{
+        display: flex;
+        justify-content: space-between;
+    }
     
         .section3{
             height: 1600px;

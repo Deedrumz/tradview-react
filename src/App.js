@@ -8,6 +8,11 @@ import Sell from './Sell';
 import Instant from './Instant';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Welcome from './Welcome';
+import Individual from './Individual';
+import Business from './Business';
+import Login from './Login';
+import Verify from './Verify';
 
 function App() {
   return (
@@ -21,6 +26,21 @@ function App() {
               <Home/>
           </Route>
 
+          <Route path='/Welcome'>
+              <Welcome/>
+          </Route>
+          <Route path='/Verify'>
+              <Verify/>
+          </Route>
+
+          <Route path='/Individual'>
+            <Individual />
+          </Route>
+
+          <Route path='/Business'>
+              <Business/>
+          </Route>
+
           <Route path='/Instant'>
               <Instant/>
           </Route>
@@ -31,6 +51,10 @@ function App() {
 
           <Route path='/Sell'>
               <Sell/>
+          </Route>
+
+          <Route path='/Login'>
+              <Login/>
           </Route>
 
 

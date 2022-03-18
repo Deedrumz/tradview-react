@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from './img/logo.svg'
 import './Navbar.css'
 import './Instant'
+import './Welcome'
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
 const Navbarfunc = () => {
@@ -13,7 +14,7 @@ const Navbarfunc = () => {
 
                         <Navbar className='navall' expand="lg">
                                     <Container>
-                                        <img src= {logo} alt="" />
+                                        <Link to='/'><img src= {logo} alt="" /></Link>   
                                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                         <Navbar.Collapse id="basic-navbar-nav">
                                         <Nav className="me-auto">
@@ -21,11 +22,11 @@ const Navbarfunc = () => {
                                             <Nav.Link id='navlink' href="#link">Learn</Nav.Link>
                                             
                                             <Nav id='movelogin1'>
-                                                <button id='login1'>LOGIN</button>
+                                             <Link to='/Login'><button id='login1'>LOGIN</button></Link>   
                                             </Nav>
                                             
                                             <Nav className='movegt'>
-                                            <Button className='gt' variant="primary" size="">GET STARTED</Button>
+                                           <Link to='/Welcome'><Button className='gt' variant="primary" size="">GET STARTED</Button></Link> 
                                             </Nav>
                           
                                         </Nav>
