@@ -266,7 +266,7 @@ const Home = () => {
 
       {/* CUSTOMER REVIEW SECTION */}
 
-      <section className="cusreview">
+      {/* <section className="cusreview">
 
                   <h4 id="cr">Customer's Review</h4>
                   
@@ -319,9 +319,63 @@ const Home = () => {
                               
 
 
-      </section>
+      </section> */}
 
-      
+      {/* COMMENT SECTION REDO */}
+<section className="cusreview">
+
+                  <h4 id="cr">Customer's Review</h4>
+
+                  <div className="unioncomment">
+                                                    <div className="moveunioncom1">
+                                                                    <div>
+                                                                        <img id="union" src={union} alt="" />
+                                                                        <p id="comment1">"Trading on TradExpress mobile & web platforms has been a smooth experience for me quite easy to navigate."</p>
+                                                                    </div>
+                                                                 
+                                                                  
+                                                                  <div className="josireti">
+                                                                        <img id="jos" src={joseph} alt="" />
+                                                                        <p id="iretinig">Ireti <span>Nigeria</span></p>
+                                                                    </div>
+                                                      </div>
+                                                    
+                                            
+                                            
+                                                    <div className="moveunioncom2">
+                                                                      <div>
+                                                                                    <img id="union2" src={union} alt="" />
+                                                                                    <p id="comment2">"They have the best rate compared to other platforms with fast payout."</p>
+                                                                      </div>
+                                                                   
+                                                                    
+                                                                    <div className="petpet">
+                                                                          <img id="pet" src={peter} alt="" />
+                                                                          <p id="petusa">Peter <span>USA</span></p>
+                                                                      </div>
+                                                    </div>
+                                                    
+                                            
+
+                                            <div className="moveunioncom3">
+                                                              <div>
+                                                                            <img id="union3" src={union} alt="" />
+                                                                            <p id="comment3">"Easy to fund and withdraw coins or cash on their platform, I will definitely trade with them again."</p>
+                                                              </div>
+                                                            
+                                                            
+                                                            <div className="rilril">
+                                                                <img id="ril" src={rilwan} alt="" />
+                                                                <p id="rilnig">Rilwan <span>Nigeria</span></p>
+                                                            </div>
+                                            </div>
+                                            
+                                            
+                      </div>
+            
+
+
+</section>
 
 
 

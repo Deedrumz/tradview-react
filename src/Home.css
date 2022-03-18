@@ -190,7 +190,8 @@
         background-color: #F2F2F2;
         position: relative;
         bottom: 50px;
-        height: 1000px;
+        height: 900px;
+        overflow: hidden;
     }
     #cr{
         padding-top: 20px;
@@ -201,7 +202,7 @@
         width: 80%;
     }
     #jos{
-        width: 20%;
+        width: 15%;
         border-radius: 100%;
     }
     #iretinig{
@@ -213,42 +214,52 @@
         color: whitesmoke;
         width: 80%;
         left: 30px;
+        font-weight: 200;
     }
     .josireti{
         position: relative;
-        bottom: 570px;
+        bottom: 110px;
+        left: -80px;
     }
-    
+    .moveunioncom2{
+        position: relative;
+        bottom: 100px;
+    }
     /* second comment */
-    
+     #union2{
+        width: 80%;
+    }
     #pet{
-        width: 20%;
+        width: 15%;
         border-radius: 100%;
     }
     #comment2{
         position: relative;
         bottom: 130px;
         color: whitesmoke;
-        width: 80%;
-        left: 30px;
+        width: 75%;
+        left: 40px;
+        font-weight: 200;
     }
     .petpet{
         position: relative;
-        bottom: 420px;
+        bottom: 80px;
+        left: -80px;
     }
     #petusa{
         font-weight: bold;
-        /* padding-bottom: 20px; */
     }
     .secondcomment{
         position: relative;
         bottom: 80px;
-    }
+    } 
     
     /* third comment */
-    
+    #union3{
+        width: 80%;
+    }
     #ril{
-        width: 20%;
+        width: 15%;
         border-radius: 100%;
     }
     #comment3{
@@ -257,14 +268,16 @@
         color: whitesmoke;
         width: 80%;
         left: 30px;
+        font-weight: 200;
     }
     .moveunioncom3{
         position: relative;
-        top: 40px;
+        bottom: 150px;
     }
     .rilril{
         position: relative;
-        bottom: 250px;
+        bottom: 80px;
+        left: -80px;;
     }
     #rilnig{
         font-weight: bold;
@@ -308,26 +321,57 @@
         position: relative;
         left: 120px;
     }
-    #comment1{
+
+     /* CUSTOMER REVIEW SECTION */
+    .cusreview{
+        height: 1000px;
+    }
+    /* first comment */
+    .josireti{
+        position: relative;
+        bottom: 85px;
+        left: -100px;
+    }
+    .moveunioncom2{
+        position: relative;
+        bottom: 70px;
+    }
+    /* second comment */
+     #union2{
         width: 80%;
-        padding-left: 5px
     }
-    .moveunioncom3{
-        position: relative;
-        top: 50px;
-    }
-    .rilril{
-        position: relative;
-        bottom: 250px;
+    #pet{
+        width: 15%;
     }
     .petpet{
         position: relative;
-        bottom: 430px;
+        bottom: 60px;
+        left: -100px;
     }
-    .josireti{
+    
+    /* third comment */
+    #ril{
+        width: 15%;
+    }
+    #comment3{
         position: relative;
-        bottom: 600px;
+        bottom: 100px;
+        color: whitesmoke;
+        width: 70%;
+        left: 50px;
+        bottom: 130px;
     }
+    .moveunioncom3{
+        position: relative;
+        bottom: 110px;
+    }
+    .rilril{
+        position: relative;
+        bottom: 85px;
+        left: -100px;;
+    }
+
+ 
     
     
     }
@@ -342,35 +386,61 @@
             position: relative;
             left: 140px;
         }
-        #comment2{
-            padding-left: 5px;
-        }
-        #comment3{
-            padding-left: 10px;
-        }
-    .thirdcomment{
-        position: relative;
-        bottom: 160px;
+          /* CUSTOMER REVIEW SECTION */
+    .cusreview{
+        height: 1000px;
     }
-    .moveunioncom3{
+    /* first comment */
+    #comment1{
         position: relative;
-        top: 80px;
-    }
-    .moveunioncom2{
-        position: relative;
-        top: 40px;
-    }
-    .rilril{
-        position: relative;
-        bottom: 250px;
-    }
-    .petpet{
-        position: relative;
-        bottom: 420px;
+        left: 40px;
     }
     .josireti{
         position: relative;
-        bottom: 610px;
+        bottom: 85px;
+        left: -100px;
+    }
+    .moveunioncom2{
+        position: relative;
+        bottom: 70px;
+    }
+    /* second comment */
+     #union2{
+        width: 80%;
+    }
+    #pet{
+        width: 15%;
+    }
+    .petpet{
+        position: relative;
+        bottom: 60px;
+        left: -100px;
+    }
+    #comment2{
+        position: relative;
+        left: 50px;
+    }
+    
+    /* third comment */
+    #ril{
+        width: 15%;
+    }
+    #comment3{
+        position: relative;
+        bottom: 100px;
+        color: whitesmoke;
+        width: 70%;
+        left: 60px;
+        bottom: 130px;
+    }
+    .moveunioncom3{
+        position: relative;
+        bottom: 110px;
+    }
+    .rilril{
+        position: relative;
+        bottom: 85px;
+        left: -100px;;
     }
     
     }
@@ -429,56 +499,67 @@
         margin-right: 20px;
     }
     
-    #union{
-        width: 50%;
-    }
-    #comment1{
-        width: 70%;
-        padding-left: 120px;
-    }
-    #comment2{
-        width: 70%;
-        padding-left: 120px;
-        /* padding-top: 20px; */
-        
-    }
-    #comment3{
-        width: 65%;
-        padding-left: 130px;
-    }
-    .cusreview{
-        height: 1100px;
-    }
-    .moveunioncom3{
-        position: relative;
-        top: 100px;
-    }
-    .moveunioncom2{
-        position: relative;
-        top: 40px;
-    }
-    .rilril{
-        position: relative;
-        bottom: 250px;
-    }
-    .petpet{
-        position: relative;
-        bottom: 420px;
-    }
-    .josireti{
-        position: relative;
-        bottom: 590px;
-    }
-    #jos{
-        width: 15%;
-    }
-    #pet{
-        width: 15%;
-    }
-    #ril{
-        width: 15%;
-    }
-    
+             /* CUSTOMER REVIEW SECTION */
+             .cusreview{
+                height: 1050px;
+            }
+            /* first comment */
+            #union{
+                width: 60%;
+            }
+            #comment1{
+                position: relative;
+                width: 50%;
+                left: 150px;
+                bottom: 150px;
+            }
+            .josireti{
+                position: relative;
+                bottom: 85px;
+                left: -120px;
+            }
+            #jos{
+                width: 8%;
+            }
+            /* second comment */
+             #union2{
+                width: 60%;
+            }
+            #pet{
+                width: 8%;
+            }
+            .petpet{
+                position: relative;
+                bottom: 60px;
+                left: -120px;
+            }
+            #comment2{
+                position: relative;
+                left: 150px;
+                width: 50%;
+            }
+            
+            /* third comment */
+            #union3{
+                width: 60%;
+            }
+            #ril{
+                width: 8%;
+            }
+            #comment3{
+                position: relative;
+                left: 150px;
+                width: 50%;
+                bottom: 130px;
+            }
+            .rilril{
+                position: relative;
+                bottom: 85px;
+                left: -120px;;
+            }
+
+
+
     }
     
     /* MOBILE QUERY FOR 768 STARTS */
@@ -536,51 +617,64 @@
         position: relative;
         left: 300px;
     }
-    
-    #comment1{
-        width: 70%;
-        padding-left: 180px;
-    }
-    #comment2{
-        width: 70%;
-        padding-left: 180px;
-    }
-    #comment3{
-        width: 70%;
-        padding-left: 180px;
-    }
-    .cusreview{
-        height: 1150px;
-    }
-    .moveunioncom3{
-        position: relative;
-        top: 100px;
-    }
-    .moveunioncom2{
-        position: relative;
-        top: 40px;
-    }
-    .rilril{
-        position: relative;
-        bottom: 220px;
-    }
-    .petpet{
-        position: relative;
-        bottom: 450px;
-    }
-    .josireti{
-        position: relative;
-        bottom: 680px;
-    }
-    #jos{
-        width: 10%;
-    }
-    #pet{
-        width: 10%;
-    }
-    #ril{
-        width: 12%;
-    }
+       /* CUSTOMER REVIEW SECTION */
+             .cusreview{
+                height: 1150px;
+            }
+            /* first comment */
+            #union{
+                width: 50%;
+            }
+            #comment1{
+                position: relative;
+                width: 40%;
+                left: 220px;
+                bottom: 150px;
+            }
+            .josireti{
+                position: relative;
+                bottom: 85px;
+                left: -120px;
+            }
+            #jos{
+                width: 8%;
+            }
+            /* second comment */
+             #union2{
+                width: 50%;
+            }
+            #pet{
+                width: 8%;
+            }
+            .petpet{
+                position: relative;
+                bottom: 60px;
+                left: -120px;
+            }
+            #comment2{
+                position: relative;
+                width: 40%;
+                left: 220px;
+            }
+            
+            /* third comment */
+            #union3{
+                width: 50%;
+            }
+            #ril{
+                width: 8%;
+            }
+            #comment3{
+                position: relative;
+                width: 40%;
+                left: 220px;
+                bottom: 130px;
+            }
+            .rilril{
+                position: relative;
+                bottom: 85px;
+                left: -120px;;
+            }
     
     }
     
@@ -590,10 +684,64 @@
     .depo{
         padding-right: 50px;
     }
-    .cusreview{
-        height: 1200px;
-    }
-    
+   /* CUSTOMER REVIEW SECTION */
+   .cusreview{
+    height: 1050px;
+}
+/* first comment */
+#union{
+    width: 40%;
+}
+#comment1{
+    position: relative;
+    width: 40%;
+    left: 240px;
+    bottom: 150px;
+}
+.josireti{
+    position: relative;
+    bottom: 85px;
+    left: -100px;
+}
+#jos{
+    width: 8%;
+}
+/* second comment */
+ #union2{
+    width: 40%;
+}
+#pet{
+    width: 8%;
+}
+.petpet{
+    position: relative;
+    bottom: 60px;
+    left: -100px;
+}
+#comment2{
+    position: relative;
+    width: 40%;
+    left: 240px;
+}
+
+/* third comment */
+#union3{
+    width: 40%;
+}
+#ril{
+    width: 8%;
+}
+#comment3{
+    position: relative;
+    width: 40%;
+    left: 240px;
+    bottom: 130px;
+}
+.rilril{
+    position: relative;
+    bottom: 85px;
+    left: -100px;;
+}
     }
     
     /* MOBILE QUERY FOR 1025 STARTS */
@@ -772,66 +920,111 @@
     .moveag4{
         padding-left: 60px;
     }
+    /* COMMENT STARTS */
+
+.cusreview{
+    background-color: #F2F2F2;
+    position: relative;
+    bottom: 50px;
+    overflow: hidden;
+    height: 400px;
+}
+#cr{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 60px;
+}
+.unioncomment{
+    display: flex;
+}
+#union{
+    width: 70%;
+}
+#union2{
+    width: 70%;
+}
+#union3{
+    width: 70%;
+}
+#jos{
+    border-radius: 100%;
+    width: 12%;
+}
+#pet{
+    border-radius: 100%;
+    width: 12%;
+}
+#ril{
+    border-radius: 100%;
+    width: 12%;
+}
+#comment1{
+    position: relative;
+    width: 60%;
+    left: 70px;
+    bottom: 140px;
+}
+.josireti{
+    display: flex;
+    position: relative;
+    bottom: 110px;
+    left: 70px;
+}
+#iretinig{
+    width: 10%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#comment2{
+    width: 55%;
+    position: relative;
+    left: 70px;
+    bottom: 135px;
+}
+.moveunioncom2{
+    position: relative;
+    bottom: 0px;
+}
+.petpet{
+    display: flex;
+    position: relative;
+    bottom: 85px;
+    left: 70px;
+}
+#petusa{
+    width: 10%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#comment3{
+    width: 65%;
+    position: relative;
+    left: 55px;
+    bottom: 125px;
+}
+.moveunioncom3{
+    position: relative;
+    bottom: 0px;
+}
+.rilril{
+    display: flex;
+    position: relative;
+    bottom: 105px;
+    left: 65px;
+}
+#rilnig{
+    width: 10%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
     
-    /* comment section satrts */
-    #union{
-        width: 40%;
-    }
-    #comment1{
-        width: 65%;
-        color: whitesmoke;
-        padding-left: 300px;
-        position: relative;
-        bottom: 180px;
-    }
-    #comment2{
-        width: 65%;
-        color: whitesmoke;
-        padding-left: 300px;
-        position: relative;
-        bottom: 180px;
-    }
-    #comment3{
-        width: 65%;
-        color: whitesmoke;
-        padding-left: 300px;
-        position: relative;
-        bottom: 180px;
-    }
-    .moveunioncom3{
-        position: relative;
-        top: 100px;
-    }
-    .moveunioncom2{
-        position: relative;
-        top: 40px;
-    }
-    .rilril{
-        position: relative;
-        bottom: 220px;
-    }
-    .petpet{
-        position: relative;
-        bottom: 450px;
-    }
-    .josireti{
-        position: relative;
-        bottom: 680px;
-    }
-    #jos{
-        width: 8%;
-    }
-    #pet{
-        width: 8%;
-    }
-    #ril{
-        width: 8%;
-    }
-    
 
-
-
-    }
+}
     
 
     /* MOBILE QUERY FOR 1285 STARTS */
@@ -852,42 +1045,98 @@
     left: 550px;
 }
 
+/* COMMENT STARTS */
 
 .cusreview{
-    height: 1400px;
+    background-color: #F2F2F2;
+    position: relative;
+    bottom: 50px;
+overflow: hidden;
+}
+#cr{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 60px;
+}
+.unioncomment{
+    display: flex;
+}
+#union{
+    width: 60%;
+}
+#union2{
+    width: 60%;
+}
+#union3{
+    width: 60%;
+}
+#jos{
+    border-radius: 100%;
+    width: 12%;
+}
+#pet{
+    border-radius: 100%;
+    width: 12%;
+}
+#ril{
+    border-radius: 100%;
+    width: 12%;
 }
 #comment1{
-    width: 65%;
-    padding-left: 350px;
-}
-#comment2{
-    width: 65%;
-    padding-left: 350px;
-}
-#comment3{
-    width: 65%;
-    padding-left: 350px;
-}
-.rilril{
     position: relative;
-    bottom: 220px;
-}
-.petpet{
-    position: relative;
-    bottom: 530px;
+    width: 60%;
+    left: 90px;
+    bottom: 140px;
 }
 .josireti{
+    display: flex;
     position: relative;
-    bottom: 800px;
+    bottom: 110px;
+    left: 110px;
 }
-.moveunioncom2{
+#iretinig{
+    width: 10%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#comment2{
+    width: 55%;
     position: relative;
-    top: 60px;
+    left: 90px;
+    bottom: 130px;
 }
-.moveunioncom3{
+.petpet{
+    display: flex;
     position: relative;
-    top: 120px;
+    bottom: 85px;
+    left: 100px;
 }
-
+#petusa{
+    width: 10%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#comment3{
+    width: 55%;
+    position: relative;
+    left: 90px;
+    bottom: 130px;
+}
+.rilril{
+    display: flex;
+    position: relative;
+    bottom: 110px;
+    left: 90px;
+}
+#rilnig{
+    width: 10%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
 
 }
