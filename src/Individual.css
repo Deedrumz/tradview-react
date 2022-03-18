@@ -196,10 +196,13 @@
 
                     /* MOBILE QUERY FOR 1285  STARTS */
 @media (min-width: 1285px){
+    .allindividual{
+        width: 40%;
+    }
 
     .moveallindividual{
         position: relative;
-        left: 300px;
+        left: 430px;
     }
 
     .iblinkall{

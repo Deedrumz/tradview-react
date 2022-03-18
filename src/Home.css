@@ -1030,21 +1030,23 @@
     /* MOBILE QUERY FOR 1285 STARTS */
 @media (min-width: 1285px){
 .sec1{
-    padding-left: 60px;
+    padding-left: 100px;
 }
 .datafetch{
-    width: 1267px;
+    width: 1518px;
     padding-left: 50px;
 }
 .movelm{
     position: relative;
-    left: 550px;
+    left: 680px;
 }
 .movegt4{
     position: relative;
-    left: 550px;
+    left: 680px;
 }
-
+.section3{
+    height: 1900px;
+}
 /* COMMENT STARTS */
 
 .cusreview{
@@ -1087,14 +1089,14 @@ overflow: hidden;
 #comment1{
     position: relative;
     width: 60%;
-    left: 90px;
+    left: 110px;
     bottom: 140px;
 }
 .josireti{
     display: flex;
     position: relative;
-    bottom: 110px;
-    left: 110px;
+    bottom: 85px;
+    left: 130px;
 }
 #iretinig{
     width: 10%;
@@ -1105,14 +1107,14 @@ overflow: hidden;
 #comment2{
     width: 55%;
     position: relative;
-    left: 90px;
+    left: 110px;
     bottom: 130px;
 }
 .petpet{
     display: flex;
     position: relative;
-    bottom: 85px;
-    left: 100px;
+    bottom: 60px;
+    left: 125px;
 }
 #petusa{
     width: 10%;
@@ -1123,14 +1125,14 @@ overflow: hidden;
 #comment3{
     width: 55%;
     position: relative;
-    left: 90px;
+    left: 110px;
     bottom: 130px;
 }
 .rilril{
     display: flex;
     position: relative;
-    bottom: 110px;
-    left: 90px;
+    bottom: 85px;
+    left: 115px;
 }
 #rilnig{
     width: 10%;

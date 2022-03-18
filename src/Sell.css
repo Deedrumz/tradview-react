@@ -189,11 +189,11 @@
     }
     .allsell{
         height: 550px;
-         width: 50%;
+         width: 40%;
     }
     .moveallsell{
         position: relative;
-        left: 250px;
+        left: 400px;
     }
     .coints{
         margin-right: 380px;

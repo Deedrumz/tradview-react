@@ -135,10 +135,10 @@
         /* MOBILE QUERY FOR 1285 STARTS */
 @media (min-width: 1285px){
     .alllogin{
-        width: 60%;
+        width: 55%;
     }
     .movealllogin{
-        padding-left: 400px;
+        padding-left: 500px;
         position: relative;
     }
 

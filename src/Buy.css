@@ -248,11 +248,11 @@
     } */
     .allbuy{
         height: 550px;
-        width: 50%;
+        width: 40%;
     }
     .moveallbuy{
         position: relative;
-        left: 250px;
+        left: 400px;
     }
     .coinbuy{
         margin-right: 380px;

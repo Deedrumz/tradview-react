@@ -49,15 +49,15 @@ opacity: 1;
 /* MOBILE QUERY FOR 1285 STARTS */
 @media (min-width: 1285px){
     .movegt{
-        margin-left: 500px;
+        margin-left: 680px;
     }
     #movelogin1{
         position: relative;
-        left: 480px;
+        left: 670px;
      }
      #navlink{
         position: relative;
-        left: 450px;
+        left: 600px;
     }
 
 
